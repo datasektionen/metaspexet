@@ -1,0 +1,36 @@
+:root {
+    --navcolor: red
+}
+.link {
+    color: white;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 3em;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.link:hover {
+    background-color: green;
+}
+
+img {
+    width: auto;
+    height: 4em;
+}
+img:hover {
+    background-color: green;
+}
+
+.container {
+    height: 4rem;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: red;
+}
