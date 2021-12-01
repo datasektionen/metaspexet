@@ -1,0 +1,12 @@
+nav {
+    background-color: aliceblue;
+}
+
+.links {
+    display: flex;
+    color: blue;
+}
+
+.links a {
+    margin: 20px;
+}
