@@ -2,5 +2,23 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    color: red;
+    list-style-type: none;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+.layout {
+    width: 80%;
+    margin: 0 auto;
+}
+
+html {
+    background-color: bisque;
+}
+
+.debug {
+    border: black 5px solid;
 }
