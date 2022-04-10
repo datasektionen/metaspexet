@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../../components/Layout';
-import * as styles from '/home/adam/kth/metaspexet/src/styles/index-about.module.css';
+import * as styles from '../../styles/index-about.module.css';
 
 const About = () => {
     const groups = ["Squådis","Chefsgruppen","Dirrarna","Ekonomi","Synk","Kören","Bygg","Dans","Rekvisita","Fotofilm","Kostym","Lyrique","Ljud & ljus","Arr","Orquestern","Manus","Sminq","Grafik","Webb","Spexm"];
