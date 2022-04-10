@@ -1,20 +1,15 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import * as styles from '../styles/index.module.css';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const Home = () => {
     return (
         <Layout>
-            <h1 className={styles.example}>Hello world from index</h1>
-            <p>
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum."
-            </p>
+            <h1>På Västfronten Intet Spex</h1>
+            <StaticImage src="https://placekitten.com/800/600" alt="A kitten" />
+            <p>Beskrivning på spexet.</p>
+            <section></section>
         </Layout>
     );
 };
