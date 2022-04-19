@@ -5,3 +5,18 @@
 .test {
     border: 1px black solid;
 }
+
+.biljett {
+    background-color: #2c3b26;
+    width: 100%;
+    padding: 25px;
+}
+
+.centerCards {
+    display: flex;
+    justify-content: center;
+}
+
+.video-container {
+    background-color: #2c3b26;
+}

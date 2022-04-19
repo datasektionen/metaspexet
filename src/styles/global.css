@@ -10,13 +10,11 @@ body {
     min-height: 100%;
 }
 
-.layout {
-    width: 80%;
-    margin: 0 auto;
-}
-
 html {
     background-color: bisque;
 }
 
-
+a {
+    color: white;
+    text-decoration: none;
+}
