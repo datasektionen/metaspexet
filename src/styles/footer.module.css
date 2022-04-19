@@ -1,7 +1,32 @@
 footer {
     background-color: cornsilk;
+    text-align: center;
+    padding: 20px;
+
 }
 
 .footerExample {
-    color: red;
+    color: black;
+    font-size: medium;
+    margin: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: lighter;
+
+}
+
+.copy {
+    color: black;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: normal;
+}
+
+.footerimg {
+    display: flex;
+    justify-content: center;
+}
+
+.imgpad {
+    padding: 8px;
+    width: 70px;
+    height: 70px;
 }
