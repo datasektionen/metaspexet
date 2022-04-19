@@ -8,7 +8,7 @@ const NavigationBar = () => {
     return (
         <Navbar bg="dark shadow p-3">
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="/">
                     <StaticImage
                         className={styles.logo}
                         src="../../assets/images/logga-vit.png"
