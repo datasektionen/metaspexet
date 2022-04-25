@@ -4,11 +4,20 @@ import * as styles from '../styles/index.module.css';
 import { Button, Container, Card } from 'react-bootstrap';
 import webm from '../../assets/videos/teaser.webm';
 import mp4 from '../../assets/videos/teaser.mp4';
-
-const datum = [
-    'Lördag 21/5 kl. 18:00 (Premiär)',
-    'Söndag 22/5 kl. 13:00 (Matinén)',
-    'Söndag 22/5 kl. 18:00 (Slasque)',
+import { Link } from 'gatsby';
+const info = [
+    {
+        date: 'Lördag 21/5 kl. 18:00 (Premiär)',
+        link: 'https://fb.me/e/2iSu1o1xx',
+    },
+    {
+        date: 'Söndag 22/5 kl. 13:00 (Matinén)',
+        link: 'https://fb.me/e/bh4jJ7Ba1',
+    },
+    {
+        date: 'Söndag 22/5 kl. 18:00 (Slasque)',
+        link: 'https://fb.me/e/2jdiwpXps',
+    },
 ];
 
 // add attributes to video: autoPlay muted loop
@@ -39,17 +48,21 @@ const Home = () => {
                 <h1 class="text-center">
                     Kom och titta på våra föreställningar på Playhouse Teater:
                 </h1>
-                <div className={styles.centerCards}>
+                <div
+                    style={{ display: 'flex', justifyContent: 'space-evenly' }}
+                >
                     {/* <div style={{ display: 'flex', justifyContent: 'center' }}> */}
-                    {datum.map((date) => {
+                    {info.map((elem) => {
                         return (
                             <Card style={{ width: '18rem' }}>
                                 <Card.Body>
-                                    <Card.Title>{date}</Card.Title>
+                                    <Card.Title>{elem.date}</Card.Title>
                                     <Card.Text></Card.Text>
-                                    <Button variant="primary">
-                                        Go somewhere
-                                    </Button>
+                                    <Link to={elem.link}>
+                                        <Button variant="primary">
+                                            Till eventet
+                                        </Button>
+                                    </Link>
                                 </Card.Body>
                             </Card>
                         );

@@ -12,11 +12,6 @@
     padding: 25px;
 }
 
-.centerCards {
-    display: flex;
-    justify-content: center;
-}
-
 .video-container {
     background-color: #2c3b26;
 }

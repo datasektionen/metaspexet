@@ -5,10 +5,32 @@ nav {
 }
 
 a {
-    color: white;
+    color: white !important;
     text-decoration: none;
 }
 
 .logo img {
     max-height: 50px;
+}
+
+.navbar-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: white !important;
+}
+.navbar-items > a {
+    margin: 0 20px;
+    color: white !important;
+}
+
+@media screen and (max-width: 991px) {
+    .nav-brand {
+        margin-top: -10px;
+    }
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .navbar {
+    }
 }
