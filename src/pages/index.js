@@ -7,15 +7,15 @@ import mp4 from '../../assets/videos/teaser.mp4';
 import { Link } from 'gatsby';
 const info = [
     {
-        date: 'Lördag 21/5 kl. 18:00 (Premiär)',
+        date: 'Lördag 21/5 18:00 (Premiär)',
         link: 'https://fb.me/e/2iSu1o1xx',
     },
     {
-        date: 'Söndag 22/5 kl. 13:00 (Matinén)',
+        date: 'Söndag 22/5 13:00 (Matinén)',
         link: 'https://fb.me/e/bh4jJ7Ba1',
     },
     {
-        date: 'Söndag 22/5 kl. 18:00 (Slasque)',
+        date: 'Söndag 22/5 18:00 (Slasque)',
         link: 'https://fb.me/e/2jdiwpXps',
     },
 ];
@@ -45,9 +45,9 @@ const Home = () => {
                 </div>
             </div>
             <Container fluid>
-                <h1 class="text-center">
+                <h3 class="text-center">
                     Kom och titta på våra föreställningar på Playhouse Teater:
-                </h1>
+                </h3>
                 <div
                     style={{ display: 'flex', justifyContent: 'space-evenly' }}
                 >
