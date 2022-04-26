@@ -5,6 +5,7 @@ import { Button, Container, Card } from 'react-bootstrap';
 import webm from '../../assets/videos/teaser.webm';
 import mp4 from '../../assets/videos/teaser.mp4';
 import { Link } from 'gatsby';
+import poster from '../../assets/images/vastfronten-orange.jpg';
 const info = [
     {
         date: 'Lördag 21/5 18:00 (Premiär)',
@@ -20,6 +21,8 @@ const info = [
     },
 ];
 
+const placeholder = poster;
+
 // add attributes to video: autoPlay muted loop
 // order: ogg, webm, mp4
 
@@ -27,7 +30,14 @@ const Home = () => {
     return (
         <Layout style={styles.test}>
             <div className={styles.videoContainer}>
-                <video autoPlay muted loop width="100%" poster="">
+                <video
+                    playsinline
+                    autoPlay
+                    muted
+                    loop
+                    width="100%"
+                    poster={placeholder}
+                >
                     <source src={webm}></source>
                     <source src={mp4}></source>
                 </video>
@@ -56,8 +66,7 @@ const Home = () => {
                         return (
                             <Card style={{ width: '18rem' }}>
                                 <Card.Body>
-                                    <Card.Title>{elem.date}</Card.Title>
-                                    <Card.Text></Card.Text>
+                                    <Card.Text>{elem.date}</Card.Text>
                                     <Link to={elem.link}>
                                         <Button variant="primary">
                                             Till eventet
