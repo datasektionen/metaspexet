@@ -1,14 +1,10 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import * as styles from '../../styles/index-about.module.css';
-<<<<<<< HEAD
-import { groups } from '../../warehouse';
-=======
 // import {groups} from '../../warehouse.js'
 const About = () => {
     // console.log(groups);
     //console.log(groups.forEach(e => {console.log(e.groupName)}));
->>>>>>> de8ef25fbd9b91bd464fc600f028756021f1cc58
 
 const test = groups;
 
