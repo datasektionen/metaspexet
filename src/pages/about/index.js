@@ -1,7 +1,14 @@
 import React from 'react';
 import Layout from '../../components/Layout';
 import * as styles from '../../styles/index-about.module.css';
+<<<<<<< HEAD
 import { groups } from '../../warehouse';
+=======
+// import {groups} from '../../warehouse.js'
+const About = () => {
+    // console.log(groups);
+    //console.log(groups.forEach(e => {console.log(e.groupName)}));
+>>>>>>> de8ef25fbd9b91bd464fc600f028756021f1cc58
 
 const test = groups;
 
@@ -57,12 +64,16 @@ const About = () => {
         <Layout>
             <div className={styles.indexabout}>
                 <h1>Hello</h1>
+<<<<<<< HEAD
                 {groups.map((groupsName, pictureName) => (
                     <div>
                         <img src={pictureName.pictureName} />
                         {groupsName.groupName}
                     </div>
                 ))}
+=======
+                {/* {groups.map((groupsName, pictureName) => <div><img src={pictureName.pictureName}/>{groupsName.groupName}</div>)} */}
+>>>>>>> de8ef25fbd9b91bd464fc600f028756021f1cc58
             </div>
         </Layout>
     );
