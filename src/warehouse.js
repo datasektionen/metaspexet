@@ -1,4 +1,4 @@
-
+/*
 let groupImages = new Array();
 for (let index = 0; index < 20; index++) {
     groupImages[index] = new Image();
@@ -52,4 +52,4 @@ export function printJason(){
 }
 
 
-export default {printJason, groups};
+export default {printJason, groups};*/
