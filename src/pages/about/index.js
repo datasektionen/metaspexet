@@ -60,16 +60,13 @@ const About = () => {
         <Layout>
             <div className={styles.indexabout}>
                 <h1>Hello</h1>
-<<<<<<< HEAD
                 {groups.map((groupsName, pictureName) => (
                     <div>
                         <img src={pictureName.pictureName} />
                         {groupsName.groupName}
                     </div>
                 ))}
-=======
                 {/* {groups.map((groupsName, pictureName) => <div><img src={pictureName.pictureName}/>{groupsName.groupName}</div>)} */}
->>>>>>> de8ef25fbd9b91bd464fc600f028756021f1cc58
             </div>
         </Layout>
     );
