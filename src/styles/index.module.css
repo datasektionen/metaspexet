@@ -1,5 +1,10 @@
-.test {
+:root{
+    --beige: rgb(221,209,168);
+}
+
+.main {
     border: 1px black solid;
+    background-color: var(--beige);
 }
 
 .biljett {
@@ -16,4 +21,46 @@
     display: flex;
     flex-direction: column;
     width: 80%;
+    margin: 1px;
+    background-color: var(--beige);
+}
+.text-container-row{
+    display: flex;
+    flex-direction: row;
+    justify-items: auto;
+    align-items: baseline;
+}
+.title{
+    font-size: 4em;
+    margin: 1px;
+    padding: 0%;
+}
+.small{
+    font-size: 1em;
+    padding: 10px
+}
+.middle{
+    font-size: 2em;
+}
+
+.cardPos{
+    background-color: var(--beige);
+    border-color: var(--beige);
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.card{
+    width: 18rem;
+    display: flex;
+    justify-items: center;
+    background-color: rgb(92,59,41);
+    border-color: var(--beige);
+    border-radius: 10px;
+    color: var(--beige);
+}
+
+.background{
+    background-color: var(--beige);
+    border-color: var(--beige);
 }
