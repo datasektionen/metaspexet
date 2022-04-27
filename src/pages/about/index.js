@@ -6,7 +6,7 @@ import bild from '../../../assets/images/past-banners/2019-banner.jpg';
 
 const groupImages = new Array();
 for (let index = 0; index < 20; index++) {
-    groupImages[index] = new Image();
+    groupImages[index] = undefined;
 }
 groupImages[0] = '../../../assets/images/group/Arr.png';
 groupImages[1] = '../../../assets/images/group/Chefsgrupp-Tot.png';
