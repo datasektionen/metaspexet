@@ -1,32 +1,35 @@
+:root {
+  --brown: rgb(92, 59, 41);
+  --beige: rgb(221, 209, 168);
+  --gray: rgb(92,92,92);
+  --img-height: 150px;
+}
+
 footer {
-    background-color: cornsilk;
-    text-align: center;
-    padding: 20px;
+    background-color: var(--brown);
+    padding: 1.5em;
 
+    /* border-top: 0.25rem solid var(--gray); */
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
 }
 
-.footerExample {
-    color: black;
-    font-size: medium;
-    margin: 10px;
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: lighter;
-
-}
-
-.copy {
-    color: black;
-    font-family: 'Red Hat Display', sans-serif;
-    font-weight: normal;
-}
-
-.footerimg {
+img {
     display: flex;
+    justify-content: center;
+    height: var(--img-height);
+}
+
+footer > div {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.imgpad {
-    padding: 8px;
-    width: 70px;
-    height: 70px;
+.contactEmail {
+    color: var(--beige);
+    font-size: x-large;
 }

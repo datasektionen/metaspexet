@@ -30,9 +30,10 @@ const Home = () => {
     return (
         <Layout className={styles.background}>
             <div className={styles.background}>
+
             <div className={styles.videoContainer}>
                 <video
-                    playsinline
+                    playsInline
                     autoPlay
                     muted
                     loop
@@ -63,9 +64,11 @@ const Home = () => {
                     className={styles.cardPos}                >
                     {info.map((elem) => {
                         return (
+
                             <Card className={styles.background}>
                                 <div className={styles.background}>
                                 <Card.Body className={styles.card}>
+
                                     <Card.Text>{elem.date}</Card.Text>
                                     <Link to={elem.link}>
                                         <Button variant="primary">
@@ -81,13 +84,14 @@ const Home = () => {
             </Container>
             <Container>
                 <section className={styles.textContainer}>
+
                     <h1 className={styles.title}>
                         PÅ VÄSTFRONTEN INTET SPEX
                     </h1>
                     <div className={styles.textContainerRow}><h4 className={styles.small}>ELLER</h4>
                     <h3 className={styles.middle}>ANDRA SIDAN ÄR NI KLARA?</h3>
                     </div>
-                    
+
                     <p>
                         Spexet tar oss till första världskriget, där två sidor
                         möts. Mer info kommer snart! Biljetterna släpps den 28:e
