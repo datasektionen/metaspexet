@@ -61,7 +61,6 @@ const Home = () => {
                 <div
                     style={{ display: 'flex', justifyContent: 'space-evenly' }}
                 >
-                    {/* <div style={{ display: 'flex', justifyContent: 'center' }}> */}
                     {info.map((elem) => {
                         return (
                             <Card style={{ width: '18rem' }}>
@@ -79,22 +78,25 @@ const Home = () => {
                 </div>
             </Container>
             <Container>
-                <h1 className={styles.testing}>På Västfronten Intet Spex</h1>
-                <h4>eller</h4>
-                <h3>Andra Sidan Är Ni Klara?</h3>
+                <section className={styles.textContainer}>
+                    <h1 className={styles.testing}>
+                        På Västfronten Intet Spex
+                    </h1>
+                    <h4>eller</h4>
+                    <h3>Andra Sidan Är Ni Klara?</h3>
 
-                <p>
-                    Spexet tar oss till första världskriget, där två sidor möts.
-                    Mer info kommer snart! Biljetterna släpps den 28:e april så
-                    håll utkik!
-                </p>
-                <p>
-                    Metaspexet är en en samproduktion av Datasektionen och
-                    Sektionen för Medieteknik på KTH. Ett spex är en
-                    teaterföreställning med inslag av improvisation och musikal.
-                </p>
-
-                <section></section>
+                    <p>
+                        Spexet tar oss till första världskriget, där två sidor
+                        möts. Mer info kommer snart! Biljetterna släpps den 28:e
+                        april så håll utkik!
+                    </p>
+                    <p>
+                        Metaspexet är en en samproduktion av Datasektionen och
+                        Sektionen för Medieteknik på KTH. Ett spex är en
+                        teaterföreställning med inslag av improvisation och
+                        musikal.
+                    </p>
+                </section>
             </Container>
         </Layout>
     );

@@ -17,5 +17,12 @@ module.exports = {
                 path: `${__dirname}/assets/images/`,
             },
         },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `pastSpex`,
+                path: `${__dirname}/src/past-spex`,
+            },
+        },
     ],
 };
