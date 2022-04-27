@@ -61,7 +61,16 @@ console.log(testArr);
 const About = () => {
     return (
         <Layout>
-            <StaticImage src={bild} />
+            <div className={styles.indexabout}>
+                <h1>Hello</h1>
+                {groups.map((groupsName, pictureName) => (
+                    <div>
+                        <img src={pictureName.pictureName} />
+                        {groupsName.groupName}
+                    </div>
+                ))}
+                {/* {groups.map((groupsName, pictureName) => <div><img src={pictureName.pictureName}/>{groupsName.groupName}</div>)} */}
+            </div>
         </Layout>
     );
 };
