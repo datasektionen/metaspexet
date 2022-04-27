@@ -31,7 +31,7 @@ const Home = () => {
         <Layout style={styles.test}>
             <div className={styles.videoContainer}>
                 <video
-                    playsinline
+                    playsInline
                     autoPlay
                     muted
                     loop
