@@ -28,10 +28,10 @@ const placeholder = poster;
 
 const Home = () => {
     return (
-        <Layout style={styles.test}>
+        <Layout>
             <div className={styles.videoContainer}>
                 <video
-                    playsinline
+                    playsInline
                     autoPlay
                     muted
                     loop
@@ -63,7 +63,7 @@ const Home = () => {
                 >
                     {info.map((elem) => {
                         return (
-                            <Card style={{ width: '18rem' }}>
+                            <Card key="{elem}" style={{ width: '18rem' }}>
                                 <Card.Body>
                                     <Card.Text>{elem.date}</Card.Text>
                                     <Link to={elem.link}>
@@ -79,9 +79,7 @@ const Home = () => {
             </Container>
             <Container>
                 <section className={styles.textContainer}>
-                    <h1 className={styles.testing}>
-                        På Västfronten Intet Spex
-                    </h1>
+                    <h1>På Västfronten Intet Spex</h1>
                     <h4>eller</h4>
                     <h3>Andra Sidan Är Ni Klara?</h3>
 
