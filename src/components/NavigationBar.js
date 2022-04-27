@@ -17,6 +17,7 @@ const NavigationBar = () => {
                         layout="constrained"
                     />
                 </Navbar.Brand>
+                {/* 
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className={styles.navbarItems}>
@@ -27,28 +28,34 @@ const NavigationBar = () => {
                             style={{ marginLeft: '20px' }}
                             menuVariant="dark"
                         >
-                            <Dropdown.Item href="#/action-1">
+                            <Dropdown.Item href="/past-spex/metaspexet-2015">
                                 METAspexet 2015:
                             </Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">
+                            <Dropdown.Item href="/past-spex/metaspexet-2016">
                                 METAspexet 2016:
                             </Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">
+                            <Dropdown.Item href="/past-spex/metaspexet-2017">
                                 METAspexet 2017:
                             </Dropdown.Item>
-                            <Dropdown.Item href="#/action-4">
+                            <Dropdown.Item href="/past-spex/metaspexet-2018">
                                 METAspexet 2018:
                             </Dropdown.Item>
-                            <Dropdown.Item href="#/action-5">
+                            <Dropdown.Item href="/past-spex/metaspexet-2019">
                                 METAspexet 2019:
                             </Dropdown.Item>
-                        </NavDropdown>
-
-                        <Nav.Link href="/about">Grupperna</Nav.Link>
-                        <Nav.Link href="/">Programblad</Nav.Link>
-                        <Nav.Link href="/">Om METAspexet</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
+                            <Dropdown.Item href="/past-spex/metaspexet-2020">
+                                METAspexet 2020:
+                            </Dropdown.Item>
+                            <Dropdown.Item href="/past-spex/metaspexet-2021">
+                                METAspexet 2021:
+                            </Dropdown.Item>
+                        </NavDropdown> */}
+                {/* 
+                        <Nav.Link href="/groups">Grupperna</Nav.Link> */}
+                {/* <Nav.Link href="/">Programblad</Nav.Link> */}
+                <Nav.Link href="/about">Om METAspexet</Nav.Link>
+                {/* </Nav>
+                </Navbar.Collapse> */}
             </Container>
         </Navbar>
     );

@@ -58,7 +58,7 @@ const testArr = [
 ];
 
 console.log(testArr);
-const About = () => {
+const Groups = () => {
     return (
         <Layout>
             <div className={styles.indexabout}>
@@ -75,4 +75,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Groups;
