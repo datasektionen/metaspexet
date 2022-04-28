@@ -55,6 +55,7 @@ const NavigationBar = () => {
                         <Nav.Link href="/groups">Grupperna</Nav.Link> */}
                         {/* <Nav.Link href="/">Programblad</Nav.Link> */}
                         <Nav.Link href="/about">Om METAspexet</Nav.Link>
+                        <Nav.Link href="/biljetter">Biljetter</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
