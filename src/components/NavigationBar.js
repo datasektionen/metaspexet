@@ -8,7 +8,7 @@ const NavigationBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark shadow p-3">
             <Container className={styles.navBrand}>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/" className={styles.navbarBrand}>
                     <StaticImage
                         className={styles.logo}
                         src="../../assets/images/logga-vit.png"
@@ -21,8 +21,8 @@ const NavigationBar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className={styles.navbarItems}>
+                        <Nav.Link href="/spexet">Årets spex</Nav.Link>
                         {/*
-                        <Nav.Link to="/">Årets spex</Nav.Link>
                         <NavDropdown
                             id="collapsible-nav-dropdown"
                             title="Tidigare spex"

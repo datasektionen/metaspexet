@@ -1,0 +1,7 @@
+h1 {
+    margin-left: 0px;
+}
+
+.childrenMargins > * {
+    margin: 20px 0;
+}
