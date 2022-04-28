@@ -13,6 +13,19 @@ a {
     max-height: 50px;
 }
 
+.navbar-brand {
+    height: 50px;
+    width: 100px;
+}
+
+.navbar-brand > img {
+    width: 100%;
+}
+
+.custom-brand {
+    border: 1px solid red;
+    width: 100px;
+}
 .navbar-items {
     display: flex;
     color: white !important;
@@ -28,10 +41,14 @@ a {
     }
 }
 
+@media screen and (max-width: 500px) {
+}
+
 @media screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
     .nav-brand {
     }
     .logo img {
-        max-height: 50px;
+        max-height: auto;
+        max-width: fit-content;
     }
 }
