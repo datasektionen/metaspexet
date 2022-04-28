@@ -15,8 +15,6 @@ a {
 
 .navbar-items {
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
     color: white !important;
 }
 .navbar-items > a {

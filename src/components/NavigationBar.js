@@ -17,10 +17,11 @@ const NavigationBar = () => {
                         layout="constrained"
                     />
                 </Navbar.Brand>
-                {/* 
+
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className={styles.navbarItems}>
+                        {/*
                         <Nav.Link to="/">Årets spex</Nav.Link>
                         <NavDropdown
                             id="collapsible-nav-dropdown"
@@ -50,12 +51,12 @@ const NavigationBar = () => {
                                 METAspexet 2021:
                             </Dropdown.Item>
                         </NavDropdown> */}
-                {/* 
+                        {/* 
                         <Nav.Link href="/groups">Grupperna</Nav.Link> */}
-                {/* <Nav.Link href="/">Programblad</Nav.Link> */}
-                <Nav.Link href="/about">Om METAspexet</Nav.Link>
-                {/* </Nav>
-                </Navbar.Collapse> */}
+                        {/* <Nav.Link href="/">Programblad</Nav.Link> */}
+                        <Nav.Link href="/about">Om METAspexet</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );
