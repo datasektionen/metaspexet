@@ -1,8 +1,6 @@
-import { StaticImage } from 'gatsby-plugin-image';
 import React from 'react';
 import Layout from '../../components/Layout';
 import * as styles from '../../styles/index-about.module.css';
-import bild from '../../../assets/images/past-banners/2019-banner.jpg';
 
 const groupImages = new Array();
 for (let index = 0; index < 20; index++) {

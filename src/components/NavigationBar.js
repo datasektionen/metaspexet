@@ -1,8 +1,8 @@
 import React from 'react';
 import * as styles from '../styles/navbar.module.css';
-import { Link } from 'gatsby';
+
 import { StaticImage } from 'gatsby-plugin-image';
-import { Container, NavDropdown, Navbar, Dropdown, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const NavigationBar = () => {
     return (

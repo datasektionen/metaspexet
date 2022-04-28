@@ -1,20 +1,18 @@
 :root {
-  --brown: rgb(92, 59, 41);
-  --beige: rgb(221, 209, 168);
-  --gray: rgb(92,92,92);
-  --img-height: 150px;
+    --brown: rgb(92, 59, 41);
+    --beige: rgb(221, 209, 168);
+    --gray: rgb(92, 92, 92);
+    --img-height: 150px;
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: var(--brown);
-    padding: 1.5em;
 
     /* border-top: 0.25rem solid var(--gray); */
-
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: center;
-    align-items: center;
 }
 
 img {
@@ -25,11 +23,17 @@ img {
 
 footer > div {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding: 1.5em;
 }
 
 .contactEmail {
     color: var(--beige);
     font-size: x-large;
+}
+
+.logos-margin > div {
+    margin: 0 60px;
 }

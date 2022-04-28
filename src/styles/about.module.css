@@ -1,0 +1,15 @@
+h1 {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.align-row {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.align-row > * {
+    margin: 12px 0;
+}
