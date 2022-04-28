@@ -11,6 +11,7 @@ a {
 
 .logo img {
     max-height: 50px;
+    filter: invert(10%) sepia(38%) saturate(215%) hue-rotate(9deg) brightness(108%) contrast(78%);
 }
 
 .navbar-brand {
@@ -34,7 +35,9 @@ a {
     margin: 0 20px;
     color: white !important;
 }
-
+.background{
+    background-color:rgb(92, 59, 41);
+}
 @media screen and (max-width: 991px) {
     .nav-brand {
         margin-top: -10px;

@@ -8,9 +8,12 @@
 }
 
 .biljett {
-    background-color: #2c3b26;
+    background-color: var(--beige);
     width: 100%;
-    padding: 25px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .video-container {
@@ -60,24 +63,33 @@
 .card {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
     background-color: rgb(92, 59, 41);
     border-color: var(--beige);
     border-radius: 10px;
     color: var(--beige);
+    
 }
 
 .background {
     background-color: var(--beige);
     border-color: var(--beige);
 }
+.button{
+    background-color: var(--beige);
+    color: rgb(92, 59, 41);
+    border-color: rgb(92, 59, 41);
+}
 
 .date-margin {
     margin-right: 10px;
+    display: flex;
+    
 }
 
 .card-top-margin > * {
     margin: 12px 0;
+    
+
 }
 
 @media screen and (max-width: 500px) {

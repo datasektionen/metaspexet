@@ -19,6 +19,7 @@ img {
     display: flex;
     justify-content: center;
     height: var(--img-height);
+    filter: invert(10%) sepia(38%) saturate(215%) hue-rotate(9deg) brightness(108%) contrast(78%);
 }
 
 footer > div {
@@ -32,6 +33,9 @@ footer > div {
 .contactEmail {
     color: var(--beige);
     font-size: x-large;
+}
+.mailText{
+    color: var(--beige);
 }
 
 .logos-margin > div {

@@ -24,8 +24,8 @@ const Footer = () => {
             <div>
                 <p className={styles.contactEmail}>
                     <b>Kontakt</b> <br />
-                    <a href="mailto:direqtionen@metaspexet.se">
-                        direqtionen@metaspexet.se
+                    <a href="mailto:direqtionen@metaspexet.se" >
+                        <div className={styles.mailText}>direqtionen@metaspexet.se</div>
                     </a>
                 </p>
             </div>

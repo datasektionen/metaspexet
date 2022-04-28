@@ -72,7 +72,7 @@ const Home = () => {
                                                 {elem.date}
                                             </Card.Text>
                                             <Link to={elem.link}>
-                                                <Button variant="primary">
+                                                <Button className={styles.button}>
                                                     Till eventet
                                                 </Button>
                                             </Link>
