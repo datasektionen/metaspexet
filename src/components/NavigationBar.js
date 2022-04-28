@@ -6,7 +6,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const NavigationBar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark shadow p-3">
+        <Navbar collapseOnSelect expand="lg" className={styles.background}>
             <Container className={styles.navBrand}>
                 <Navbar.Brand href="/" className={styles.navbarBrand}>
                     <StaticImage
