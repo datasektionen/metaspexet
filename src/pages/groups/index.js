@@ -52,16 +52,16 @@ const groups = [
 const Groups = () => {
     return (
         <Layout>
-            <div>
-                <h1>{chefer.groupName}</h1>
+            <div className={styles.cardCenter}>
                 <img src={chefer.pictureName} alt="" />
+                <h1>{chefer.groupName}</h1>
             </div>
 
             <div className={styles.indexabout}>
                 {groups.map((group) => (
                     <div>
-                        <h1>{group.groupName}</h1>
                         <img src={group.pictureName} alt={group.groupName} />
+                        <h1>{group.groupName}</h1>
                     </div>
                 ))}
             </div>
